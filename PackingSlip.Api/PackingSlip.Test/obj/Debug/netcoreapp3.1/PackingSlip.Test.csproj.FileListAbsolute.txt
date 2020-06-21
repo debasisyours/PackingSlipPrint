@@ -135,3 +135,10 @@ E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\bin\Debug\netcoreapp3.1
 E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\obj\Debug\netcoreapp3.1\PackingSlip.Test.csproj.CoreCompileInputs.cache
 E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\obj\Debug\netcoreapp3.1\PackingSlip.Test.dll
 E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\obj\Debug\netcoreapp3.1\PackingSlip.Test.pdb
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\bin\Debug\netcoreapp3.1\iTextSharp.LGPLv2.Core.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Test\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll

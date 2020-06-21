@@ -11,5 +11,8 @@ namespace PackingSlip.Utility
         public const string MembershipDoesNotExistMessage = "Membership not found.";
         public const string MembershipAlreadyActivatedMessage = "Membership already activated.";
         public const string MembershipAlreadyUpgradedMessage = "Membership already upgraded.";
+
+        public const string CustomerEmailCannotBeBlankMessage = "Customer email should not be blank.";
+        public const string AgentCannotBeBlankMessage = "Agent name required to generate commission payment.";
     }
 }
