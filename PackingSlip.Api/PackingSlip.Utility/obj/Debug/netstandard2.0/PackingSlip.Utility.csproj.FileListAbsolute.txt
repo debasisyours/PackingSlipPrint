@@ -1,0 +1,9 @@
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Utility\bin\Debug\netstandard2.0\PackingSlip.Utility.deps.json
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Utility\bin\Debug\netstandard2.0\PackingSlip.Utility.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Utility\bin\Debug\netstandard2.0\PackingSlip.Utility.pdb
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Utility\obj\Debug\netstandard2.0\PackingSlip.Utility.csprojAssemblyReference.cache
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Utility\obj\Debug\netstandard2.0\PackingSlip.Utility.AssemblyInfoInputs.cache
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Utility\obj\Debug\netstandard2.0\PackingSlip.Utility.AssemblyInfo.cs
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Utility\obj\Debug\netstandard2.0\PackingSlip.Utility.csproj.CoreCompileInputs.cache
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Utility\obj\Debug\netstandard2.0\PackingSlip.Utility.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Utility\obj\Debug\netstandard2.0\PackingSlip.Utility.pdb

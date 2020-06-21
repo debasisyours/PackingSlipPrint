@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PackingSlip.Domain\PackingSlip.Domain.csproj" />
+    <ProjectReference Include="..\PackingSlip.Utility\PackingSlip.Utility.csproj" />
+  </ItemGroup>
+
+</Project>

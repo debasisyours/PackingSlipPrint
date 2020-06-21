@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "lXwFPih+n+7sZ8xTO+YEVsryKkJt132OL3jajrppvLNuMT8Y8H3bphpu8Ba7tPPXaY2xaKvWUere+IUHlkNZ8w==",
+  "success": true,
+  "projectFilePath": "E:\\Research\\Maersk Exam\\PackingSlip.Api\\PackingSlip.Console\\PackingSlip.Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

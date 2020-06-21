@@ -1,0 +1,14 @@
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\bin\Debug\netstandard2.0\PackingSlip.Repository.deps.json
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\bin\Debug\netstandard2.0\PackingSlip.Repository.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\bin\Debug\netstandard2.0\PackingSlip.Repository.pdb
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\bin\Debug\netstandard2.0\PackingSlip.Domain.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\bin\Debug\netstandard2.0\PackingSlip.Utility.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\bin\Debug\netstandard2.0\PackingSlip.Domain.pdb
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\bin\Debug\netstandard2.0\PackingSlip.Utility.pdb
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\obj\Debug\netstandard2.0\PackingSlip.Repository.csprojAssemblyReference.cache
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\obj\Debug\netstandard2.0\PackingSlip.Repository.AssemblyInfoInputs.cache
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\obj\Debug\netstandard2.0\PackingSlip.Repository.AssemblyInfo.cs
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\obj\Debug\netstandard2.0\PackingSlip.Repository.csproj.CoreCompileInputs.cache
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\obj\Debug\netstandard2.0\PackingSlip.Repository.csproj.CopyComplete
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\obj\Debug\netstandard2.0\PackingSlip.Repository.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Repository\obj\Debug\netstandard2.0\PackingSlip.Repository.pdb

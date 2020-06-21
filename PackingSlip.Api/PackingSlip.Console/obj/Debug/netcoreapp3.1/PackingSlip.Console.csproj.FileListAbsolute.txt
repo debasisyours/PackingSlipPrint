@@ -1,0 +1,13 @@
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\bin\Debug\netcoreapp3.1\PackingSlip.Console.exe
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\bin\Debug\netcoreapp3.1\PackingSlip.Console.deps.json
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\bin\Debug\netcoreapp3.1\PackingSlip.Console.runtimeconfig.json
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\bin\Debug\netcoreapp3.1\PackingSlip.Console.runtimeconfig.dev.json
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\bin\Debug\netcoreapp3.1\PackingSlip.Console.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\bin\Debug\netcoreapp3.1\PackingSlip.Console.pdb
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\obj\Debug\netcoreapp3.1\PackingSlip.Console.csprojAssemblyReference.cache
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\obj\Debug\netcoreapp3.1\PackingSlip.Console.AssemblyInfoInputs.cache
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\obj\Debug\netcoreapp3.1\PackingSlip.Console.AssemblyInfo.cs
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\obj\Debug\netcoreapp3.1\PackingSlip.Console.csproj.CoreCompileInputs.cache
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\obj\Debug\netcoreapp3.1\PackingSlip.Console.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\obj\Debug\netcoreapp3.1\PackingSlip.Console.pdb
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Console\obj\Debug\netcoreapp3.1\PackingSlip.Console.genruntimeconfig.cache
