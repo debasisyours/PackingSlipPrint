@@ -14,5 +14,10 @@ namespace PackingSlip.Utility
 
         public const string CustomerEmailCannotBeBlankMessage = "Customer email should not be blank.";
         public const string AgentCannotBeBlankMessage = "Agent name required to generate commission payment.";
+
+        public const string MembershipActivationSubject = "Membership Activation";
+        public const string MembershipActivationBody = "Membership activation completed successfully.";
+        public const string MembershipUpgradeSubject = "Membership Upgrade";
+        public const string MembershipUpgradeBody = "Membership Upgrade completed successfully.";
     }
 }

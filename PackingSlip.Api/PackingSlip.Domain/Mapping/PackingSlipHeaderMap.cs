@@ -11,7 +11,7 @@ namespace PackingSlip.Domain.Mapping
     {
         public void Configure(EntityTypeBuilder<PackingSlipHeader> builder)
         {
-            builder.ToTable("dbo", "PackingSlipHeader");
+            builder.ToTable("PackingSlipHeader", "dbo");
             builder.HasKey(s => s.Id);
             builder.HasMany(s => s.PackingSlipItems)
                 .WithOne(s => s.PackingSlipHeader)

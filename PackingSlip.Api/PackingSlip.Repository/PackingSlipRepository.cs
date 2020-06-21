@@ -26,9 +26,16 @@ namespace PackingSlip.Repository
         public async Task<ResponseMessage> SavePackingSlipAsync(PackingSlipHeader packingSlip)
         {
             ResponseMessage message = new ResponseMessage { IsSuccess = false };
+            int maxNumber = 0;
 
             using (IDbContextTransaction transaction = _context.Database.BeginTransaction())
             {
+                if (_context.PackingSlipHeaders.Any())
+                {
+                    maxNumber = _context.PackingSlipHeaders.Max(s => s.Id);
+                }
+
+                packingSlip.PackingSlipNumber = $"PS-{maxNumber}";
                 _context.PackingSlipHeaders.Add(packingSlip);
                 await _context.SaveChangesAsync();
 
@@ -49,6 +56,7 @@ namespace PackingSlip.Repository
                 await transaction.CommitAsync();
 
                 message.IsSuccess = true;
+                message.Detail = packingSlip.PackingSlipNumber;
             }
 
             return message;

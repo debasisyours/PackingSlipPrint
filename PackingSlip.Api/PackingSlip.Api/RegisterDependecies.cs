@@ -15,10 +15,13 @@ namespace PackingSlip.Api
             serviceCollection.AddTransient<ICustomerMembershipRepository, CustomerMembershipRepository>();
             serviceCollection.AddTransient<IPackingSlipRepository, PackingSlipRepository>();
             serviceCollection.AddTransient<IFreeProductRepository, FreeProductRepository>();
+            serviceCollection.AddTransient<IAgentCommissionRepository, AgentCommissionRepository>();
 
             serviceCollection.AddTransient<IPackingSlipValidator, PackingSlipValidator>();
             serviceCollection.AddTransient<IPackingSlipSaveService, PackingSlipSaveService>();
             serviceCollection.AddTransient<IFreeItemCheckerService, FreeItemCheckerService>();
+            serviceCollection.AddTransient<IPackingSlipPrintService, PackingSlipPrintService>();
+            serviceCollection.AddTransient<IEmailService, EmailService>();
         }
     }
 }

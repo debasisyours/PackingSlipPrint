@@ -12,6 +12,9 @@ namespace PackingSlip.Domain
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<AgentCommission>().Property(s => s.Amount).HasColumnType("DECIMAL(18,2)");
+            modelBuilder.Entity<Product>().Property(s => s.Rate).HasColumnType("DECIMAL(18,2)");
+            modelBuilder.Entity<PackingSlipItem>().Property(s => s.Amount).HasColumnType("DECIMAL(18,2)");
             modelBuilder.ApplyConfiguration<CustomerMembership>(new CustomerMembershipMap());
             modelBuilder.ApplyConfiguration<FreeProduct>(new FreeProductMap());
             modelBuilder.ApplyConfiguration<FreeProductParent>(new FreeProductParentMap());
@@ -19,6 +22,7 @@ namespace PackingSlip.Domain
             modelBuilder.ApplyConfiguration<Product>(new ProductMap());
             modelBuilder.ApplyConfiguration<PackingSlipHeader>(new PackingSlipHeaderMap());
             modelBuilder.ApplyConfiguration<PackingSlipItem>(new PackingSlipItemMap());
+            modelBuilder.ApplyConfiguration<AgentCommission>(new AgentCommissionMap());
         }
 
         public DbSet<Product> Products { get; set; }
@@ -28,5 +32,6 @@ namespace PackingSlip.Domain
         public DbSet<CustomerMembership> CustomerMemberships { get; set; }
         public DbSet<PackingSlipHeader> PackingSlipHeaders { get; set; }
         public DbSet<PackingSlipItem> PackingSlipItems { get; set; }
+        public DbSet<AgentCommission> AgentCommissions { get; set; }
     }
 }

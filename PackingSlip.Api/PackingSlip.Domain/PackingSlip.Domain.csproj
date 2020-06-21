@@ -5,6 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Migrations\20200621194423_InitialCreate.cs" />
+    <Compile Remove="Migrations\20200621194423_InitialCreate.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="microsoft.entityframeworkcore" Version="3.1.5" />
     <PackageReference Include="microsoft.entityframeworkcore.design" Version="3.1.5">
       <PrivateAssets>all</PrivateAssets>

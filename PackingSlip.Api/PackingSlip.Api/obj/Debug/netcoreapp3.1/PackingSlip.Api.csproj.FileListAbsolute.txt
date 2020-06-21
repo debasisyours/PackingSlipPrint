@@ -76,3 +76,5 @@ E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Api\bin\Debug\netcoreapp3.1\
 E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Api\bin\Debug\netcoreapp3.1\PackingSlip.Repository.pdb
 E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Api\bin\Debug\netcoreapp3.1\PackingSlip.Service.pdb
 E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Api\bin\Debug\netcoreapp3.1\PackingSlip.Utility.pdb
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Api\bin\Debug\netcoreapp3.1\iTextSharp.LGPLv2.Core.dll
+E:\Research\Maersk Exam\PackingSlip.Api\PackingSlip.Api\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll

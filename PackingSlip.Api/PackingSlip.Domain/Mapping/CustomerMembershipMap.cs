@@ -11,7 +11,7 @@ namespace PackingSlip.Domain.Mapping
     {
         public void Configure(EntityTypeBuilder<CustomerMembership> builder)
         {
-            builder.ToTable("dbo", "CustomerMembership");
+            builder.ToTable("CustomerMembership", "dbo");
             builder.HasKey(s => s.Id);
         }
     }

@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PackingSlip.Domain;
+using PackingSlip.Utility;
 
 namespace PackingSlip.Api
 {
@@ -30,6 +31,9 @@ namespace PackingSlip.Api
                 options.UseSqlServer(Configuration.GetConnectionString("Default"));
             });
             services.RegisterDependencies();
+            IConfigurationSection fileConfiguration = Configuration.GetSection("FileConfig");
+            services.Configure<FileConfig>(fileConfiguration);
+            services.AddOptions();
             services.AddControllersWithViews();
         }
 
