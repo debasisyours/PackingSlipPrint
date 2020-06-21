@@ -8,6 +8,7 @@ using PackingSlip.Service;
 
 namespace PackingSlip.Api.Controllers
 {
+    [Route("api/[controller]")]
     public class PackingController : Controller
     {
         private readonly IPackingSlipSaveService _packingSlipSaveService = null;
@@ -26,6 +27,7 @@ namespace PackingSlip.Api.Controllers
         }
 
         [HttpPost]
+        [Route("SaveSlip")]
         public async Task<IActionResult> SavePackingSlip([FromBody] PackingSlipHeader packingSlip)
         {
             var response = await _packingSlipSaveService.SavePackingSlip(packingSlip);

@@ -28,35 +28,42 @@ namespace PackingSlip.Repository
             ResponseMessage message = new ResponseMessage { IsSuccess = false };
             int maxNumber = 0;
 
-            using (IDbContextTransaction transaction = _context.Database.BeginTransaction())
+            try
             {
-                if (_context.PackingSlipHeaders.Any())
+                using (IDbContextTransaction transaction = _context.Database.BeginTransaction())
                 {
-                    maxNumber = _context.PackingSlipHeaders.Max(s => s.Id);
-                }
-
-                packingSlip.PackingSlipNumber = $"PS-{maxNumber}";
-                _context.PackingSlipHeaders.Add(packingSlip);
-                await _context.SaveChangesAsync();
-
-                int packingId = packingSlip.Id;
-                packingSlip.PackingSlipItems.ForEach(s =>
-                {
-                    var product = _context.Products.FirstOrDefault(x => x.Name == s.Name);
-                    _context.PackingSlipItems.Add(new PackingSlipItem
+                    if (_context.PackingSlipHeaders.Any())
                     {
-                        Amount = (s.IsFreeItem.HasValue && s.IsFreeItem.Value) ? 0 : s.Quantity * product.Rate,
-                        Name = s.Name,
-                        PackingSlipId = packingId,
-                        Quantity = s.Quantity,
-                        ProductId = product.Id,
-                    });
-                });
-                await _context.SaveChangesAsync();
-                await transaction.CommitAsync();
+                        maxNumber = _context.PackingSlipHeaders.Max(s => s.Id);
+                    }
 
-                message.IsSuccess = true;
-                message.Detail = packingSlip.PackingSlipNumber;
+                    packingSlip.PackingSlipNumber = $"PS-{maxNumber}";
+                    _context.PackingSlipHeaders.Add(packingSlip);
+                    await _context.SaveChangesAsync();
+
+                    int packingId = packingSlip.Id;
+                    foreach (var item in packingSlip.PackingSlipItems.ToList())
+                    {
+                        var product = _context.Products.FirstOrDefault(x => x.Name == item.Name);
+                        _context.PackingSlipItems.Add(new PackingSlipItem
+                        {
+                            Amount = (item.IsFreeItem.HasValue && item.IsFreeItem.Value) ? 0 : item.Quantity * product.Rate,
+                            Name = item.Name,
+                            PackingSlipId = packingId,
+                            Quantity = item.Quantity,
+                            ProductId = product.Id,
+                        });
+                    }
+                    await _context.SaveChangesAsync();
+                    await transaction.CommitAsync();
+
+                    message.IsSuccess = true;
+                    message.Detail = packingSlip.PackingSlipNumber;
+                }
+            }
+            catch(Exception ex)
+            {
+
             }
 
             return message;

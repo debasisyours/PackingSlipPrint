@@ -11,5 +11,11 @@ namespace PackingSlip.Domain.Entities
         public bool IsActive { get; set; }
         public virtual List<FreeProductParent> FreeProductParents { get; set; }
         public virtual List<FreeProductChild> FreeProductChildren { get; set; }
+
+        public FreeProduct()
+        {
+            FreeProductChildren = new List<FreeProductChild>();
+            FreeProductParents = new List<FreeProductParent>();
+        }
     }
 }
